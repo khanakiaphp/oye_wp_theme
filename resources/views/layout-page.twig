@@ -1,0 +1,8 @@
+{% include 'header.twig' with {'data': data.header} %}
+<div id="main" class="main" data-postid="{{post.id}}">
+	<div class="main-inner" id="main-inner">
+		 {% block content %}{% endblock %}
+	</div>
+</div>
+
+{% include 'footer.twig' with {'data': data.footer} %}

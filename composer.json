@@ -1,0 +1,24 @@
+{
+    "name": "oye/framework",
+    "description": "Oye Framework for oye theme",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Aman",
+            "email": "khanakia@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^1.0",
+        "tgmpa/tgm-plugin-activation": "^2.6",
+        "timber/timber": "^1.7"
+    },
+
+    "autoload": {
+        "psr-4": {
+          "App\\": "app",
+          "OyeTheme\\": "includes/oyetheme-library"
+        }
+    }
+}
